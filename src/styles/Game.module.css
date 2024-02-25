@@ -1,0 +1,72 @@
+.rotulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+h2 {
+    color: aliceblue;
+    background-image: linear-gradient(90deg,
+            hsl(238deg 100% 50%) 0%,
+            hsl(258deg 100% 50%) 34%,
+            hsl(265deg 100% 50%) 47%,
+            hsl(271deg 100% 50%) 56%,
+            hsl(276deg 100% 50%) 64%,
+            hsl(280deg 100% 50%) 71%,
+            hsl(284deg 100% 50%) 80%,
+            hsl(288deg 100% 50%) 100%);
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 4px;
+    padding: 8px 0;
+}
+
+.rotulo p,
+.start {
+    font-size: 24px;
+    font-weight: bold;
+    color: coral;
+    margin-top: 16px;
+}
+
+.rotulo p span {
+    color: #fff;
+}
+
+.start {
+    border-radius: 10px;
+    padding: 7px 24px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.x,
+.o {
+    color: rebeccapurple;
+    text-shadow: 1px 1px 2px black;
+}
+
+.o {
+    color: crimson;
+}

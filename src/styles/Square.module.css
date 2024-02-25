@@ -1,0 +1,11 @@
+.square {
+    background-color: #adadad;
+    border: 1px solid black;
+    font-size: 28px;
+    cursor: pointer;
+    outline: none;
+}
+
+.square:focus {
+    background-color: rgb(158, 236, 143);
+}
